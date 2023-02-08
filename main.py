@@ -5,6 +5,7 @@ from pytesseract import image_to_string
 
 
 def convert_pdf_to_img(pdf_file):
+    print("Pdf file ")
     return convert_from_path(pdf_file)
 
 
